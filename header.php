@@ -21,26 +21,31 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
 <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 <!-- Template Main CSS File -->
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet" />
 <link href="<?php echo get_template_directory_uri(); ?>/assets/scss/main.css" rel="stylesheet" />
 <?php wp_head(); ?>
 </head>
 <body>
-<header id="header" class="fixed-top d-flex align-items-center">
-  <div class="container d-flex justify-content-between align-items-center">
-    <div class="logo">
-      <h1><a href="<?php echo home_url(); ?>/">資産運用アドバイザー IFA 鈴木義典</a></h1>
+<header>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center pt-4">
+        <a href="<?php echo home_url(); ?>/">鈴木義典行政書士事務所</a>
+      </h1>
     </div>
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a <?php if( is_front_page() ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/">ホーム</a></li>
-        <li><a <?php if( is_page('ifa') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/ifa">IFAとは</a></li>
-        <li><a <?php if( is_page('profile') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/profile">プロフィール</a></li>
-        <li><a <?php if( is_page('blogs') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/blogs">新着記事</a></li>
-        <li><a <?php if( is_page('access') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/access">アクセス</a></li>
-        <li><a <?php if( is_page('contact') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav>
   </div>
+  <nav>
+    <div class="container">
+      <div class="row">
+        <ul class="d-flex justify-content-center pt-4">
+          <li class="px-4"><a <?php if( is_front_page() ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/">ホーム</a></li>
+          <li class="px-4"><a <?php if( is_page('service') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/service">取扱業務</a></li>
+          <li class="px-4"><a <?php if( is_page('price') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/price">報酬表</a></li>
+          <li class="px-4"><a <?php if( is_page('about') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/about">事務所概要</a></li>
+          <li class="px-4"><a <?php if( is_page('blogs') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/blogs">記事一覧</a></li>  
+          <li class="px-4"><a <?php if( is_page('contact') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
+        </ul>
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+      </div>
+    </div>
+  </nav>
 </header>

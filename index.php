@@ -1,109 +1,59 @@
 <?php get_header(); ?>
-<section class="hero-section" id="hero">
-	<?php get_template_part('template/wave_index'); ?>
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-12 hero-text-image">
-				<div class="row">
-					<div class="col-lg-8 text-center text-lg-start">
-						<h1 class="main-message" data-aos="fade-right">お客様にとって<br>唯一無二の存在になりたい</h1>
-						<p class="mb-5" data-aos="fade-right" data-aos-delay="100">
-						独立系ファイナンシャルアドバイザー（IFA）に一度ご相談下さい。<br>オーダーメイドの価値ある提案で、問題解決を目指します。
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="hero" data-aos="fade-up">
 </section>
 <main id="main">
-<!-- <section class="section">
+	<section data-aos="fade-up">
 		<div class="container">
-			<div class="row justify-content-center text-center mb-5">
-				<div class="col-md-8" data-aos="fade-up">
-					<h2 class="section-heading">無料金融知識向上セミナー開催</h2>
-				</div>
-			</div>
-			<div class="col-md-8 mx-auto">
-				<p>「金融商品やサービスだけでなく相続対策に至るまで様々な問題解決のヒントをお伝えしたい」との思いから、皆様が気軽に相談したり、情報共有ができる場として積極的にセミナーを開催しております。<br>
-参加無料ですので、是非ご参加ください。</p>
-			</div>
-		</div>
-	</section> -->
-	<section class="section">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-6 me-auto">
-					<h2 class="mb-4">ご挨拶</h2>
-					<p class="mb-4">当ホームページをご覧いただきありがとうございます。<br>このホームページでは、IFA（Independent Financial Advisor）という仕事についてや、お金にまつわる様々な情報を発信していきたいと考えております。<br>あなたの財務計画をサポートし、最高のサービスを提供することが我々の使命です。<br>お悩みやご質問があれば、いつでもお気軽にご相談ください。<br>心からのご挨拶を申し上げます。</p>
-					<p><a href="<?php echo home_url(); ?>/contact" class="btn btn-primary w-100">無料相談はこちらから</a></p>
-				</div>
-				<div class="col-md-5" data-aos="fade-left">
-					<img
-						src="<?php echo get_template_directory_uri(); ?>/assets/img/woman.jpg"
-						alt="Image"
-						class="img-fluid rounded-3"
-					/>
+			<div class="row">
+				<div class="col-md-8 mx-auto">
+					<h2 class="mb-5 h1 text-center">ご挨拶</h2>
+					<p>ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。
+					ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。
+					ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。
+					</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="section">
+
+	<section data-aos="fade-up">
 		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-6 order-md-2">
-					<h2 class="mb-4">無料金融知識向上セミナー開催</h2>
-					<p class="mb-4">「金融商品やサービスだけでなく相続対策に至るまで様々な問題解決のヒントをお伝えしたい」との思いから、皆様が気軽に相談したり、情報共有ができる場として積極的にセミナーを開催しております。<br>
-参加無料ですので、是非ご参加ください。</p>
-					<p><a href="<?php echo home_url(); ?>/contact" class="btn btn-primary w-100">無料セミナーはこちらから</a></p>
-				</div>
-				<div class="col-md-5 me-auto" data-aos="fade-right">
-					<img
-						src="<?php echo get_template_directory_uri(); ?>/assets/img/interview.jpg"
-						alt="Image"
-						class="img-fluid rounded-3"
-					/>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<div class="row justify-content-center text-center mb-5">
-				<div class="col-md-5" data-aos="fade-up">
-					<h2 class="section-heading">サービス</h2>
+			<div class="row justify-content-center text-center">
+				<div class="col-md-5">
+					<h2 class="mb-4 h1 text-center">取扱業務</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-12">
-					<div class="step">
-						<span class="number">01</span>
-						<h3>ポートフォリオ運用</h3>
-						<p>マーケット環境、分散効果投資効率、リスク許容度を共有し問題解決に向けた提案をいたします。</p>
+				<div class="col-md-4 col-sm-12 px-4">
+					<div class="service_box">
+						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.jpg" alt=""></p>
+						<h3 class="pb-2">遺言</h3>
+						<p>遺言の説明文が入ります。遺言の説明文が入ります。遺言の説明文が入ります。遺言の説明文が入ります。</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="step">
-						<span class="number">02</span>
-						<h3>投資信託積立</h3>
-						<p>ドルコスト平均法によるリスクを抑えた効率的な運用をご案内します。</p>
+				<div class="col-md-4 col-sm-12 px-4">
+					<div class="service_box">
+						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/2.png" alt=""></p>
+						<h3 class="pb-2">家族信託</h3>
+						<p>家族信託の説明文が入ります。家族信託の説明文が入ります。家族信託の説明文が入ります。家族信託の説明文が入ります。</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="step">
-						<span class="number">03</span>
-						<h3>相続対策</h3>
-						<p>大切な家族に資産を残すための提案をご用意しております。</p>
+				<div class="col-md-4 col-sm-12 px-4">
+					<div class="service_box">
+						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/3.png" alt=""></p>
+						<h3 class="pb-2">助成金</h3>
+						<p>助成金の説明文が入ります。助成金の説明文が入ります。助成金の説明文が入ります。助成金の説明文が入ります。</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="section">
+
+	<section data-aos="fade-up">
 		<div class="container">
-			<div class="row justify-content-center text-center mb-5">
-				<div class="col-md-5" data-aos="fade-up">
-					<h2 class="section-heading">新着記事</h2>
+			<div class="row justify-content-center text-center">
+				<div class="col-md-5">
+					<h2 class="mb-5 section-heading h1">新着記事</h2>
 				</div>
 			</div>
 			<div class="col-md-8 mx-auto">
@@ -124,6 +74,17 @@
 						wp_reset_postdata();
 					?>
 				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section data-aos="fade-up">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mx-auto">
+					<h2 class="mb-5 h1 text-center">アクセス</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5360487025264!2d139.70997861204464!3d35.688424272470556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ce9ebc5b7ad%3A0x76be1b40803694af!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yR5LiB55uu77yZ4oiS77ySIOODiuODquOCs-ODniBIRCDmlrDlrr_jg5Pjg6s!5e0!3m2!1sja!2sjp!4v1686553602302!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
 			</div>
 		</div>
 	</section>

@@ -1,29 +1,16 @@
 <?php
 /**
- * Template Name: 新着記事
+ * Template Name: 記事一覧
 **/
 
 get_header(); ?>
 <main id="main">
-  <section class="hero-section inner-page">
-    <?php get_template_part('template/wave_others'); ?>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12">
-          <div class="row justify-content-center">
-            <div class="col-md-7 text-center hero-text">
-              <h1 data-aos="fade-up" data-aos-delay="">新着記事</h1>
-              <p data-aos="fade-up" data-aos-delay="100">皆様の役に立つ情報を発信しております</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <section class="single-bg" data-aos="fade-up">
   </section>
-  <section class="section">
+  <section data-aos="fade-up">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
-        <div class="col-md-8" data-aos="fade-up">
+        <div class="col-md-8">
           <h2 class="section-heading">一覧</h2>
         </div>
       </div>
