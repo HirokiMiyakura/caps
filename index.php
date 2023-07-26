@@ -14,29 +14,29 @@
 		</div>
 	</section>
 
-	<section data-aos="fade-up">
+	<section>
 		<div class="container">
 			<div class="row justify-content-center text-center">
-				<div class="col-md-5">
+				<div class="col-md-5" data-aos="fade-up">
 					<h2 class="mb-4 h1 text-center">取扱業務</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-12 px-4">
+				<div class="col-md-4 col-sm-12 px-4" data-aos="fade-up" data-aos-delay="200">
 					<div class="service_box">
 						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.jpg" alt=""></p>
 						<h3 class="pb-2">遺言</h3>
 						<p>大切なご資産を誰にどのように継承させるか。<br>重要な課題解決を一緒に取り組ませてください。</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 px-4">
+				<div class="col-md-4 col-sm-12 px-4" data-aos="fade-up" data-aos-delay="400">
 					<div class="service_box">
 						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/2.jpg" alt=""></p>
 						<h3 class="pb-2">家族信託</h3>
 						<p>あなたの資産に「想い」を込めて大切な家族に繋ぐ。<br>家族信託は家族信託専門士（一般社団法人家族信託普及協会）にお任せください。</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 px-4">
+				<div class="col-md-4 col-sm-12 px-4" data-aos="fade-up" data-aos-delay="600">
 					<div class="service_box">
 						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/3.jpg" alt=""></p>
 						<h3 class="pb-2">助成金</h3>
