@@ -5,8 +5,9 @@
 
 get_header(); ?>
 <main id="main">
-  <section class="single-bg" data-aos="fade-up">
+  <section class="single-bg main-bg" data-aos="fade-up">
   </section>
+  
   <section data-aos="fade-up">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
@@ -24,7 +25,7 @@ get_header(); ?>
             foreach ( $posts as $post ):
             setup_postdata( $post );
           ?>
-          <li class="h5 mb-4 pb-4 list-group-item">
+          <li class="h6 mb-4 pb-4 list-group-item">
             <a href="<?php the_permalink(); ?>"><span><?php the_time('Y年m月d日'); ?></span>　<?php the_title(); ?></a>
           </li>
           <?php

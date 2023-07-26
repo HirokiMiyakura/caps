@@ -22,13 +22,14 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 <!-- Template Main CSS File -->
 <link href="<?php echo get_template_directory_uri(); ?>/assets/scss/main.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/hamburger.css" rel="stylesheet" />
 <?php wp_head(); ?>
 </head>
 <body>
 <header>
   <div class="container">
     <div class="row">
-      <h1 class="text-center pt-4">
+      <h1 class="logo text-center pt-4">
         <a href="<?php echo home_url(); ?>/">鈴木義典行政書士事務所</a>
       </h1>
     </div>
@@ -36,7 +37,7 @@
   <nav>
     <div class="container">
       <div class="row">
-        <ul class="d-flex justify-content-center pt-4">
+        <ul class="d-flex justify-content-center pt-4 header-menu">
           <li class="px-4"><a <?php if( is_front_page() ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/">ホーム</a></li>
           <li class="px-4"><a <?php if( is_page('service') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/service">取扱業務</a></li>
           <li class="px-4"><a <?php if( is_page('price') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/price">報酬表</a></li>
@@ -44,7 +45,7 @@
           <li class="px-4"><a <?php if( is_page('blogs') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/blogs">記事一覧</a></li>  
           <li class="px-4"><a <?php if( is_page('contact') ): ?> class="active" <?php endif; ?> href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
         </ul>
-        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </div>
     </div>
   </nav>

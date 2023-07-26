@@ -5,8 +5,9 @@
 
 get_header(); ?>
 <main id="main">
-  <section class="about-bg" data-aos="fade-up">
+  <section class="about-bg main-bg" data-aos="fade-up">
   </section>
+  
   <section data-aos="fade-up">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
@@ -15,7 +16,7 @@ get_header(); ?>
           <p class="address">
           〒160-0022<br>
           東京都新宿区新宿1-9-2ナリコマHD新宿ビル6F<br>
-          TEL:050-3706-0827／ 携帯:090-4954-1889
+          TEL:050-3706-0827
           </p>
         </div>
       </div>

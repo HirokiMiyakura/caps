@@ -5,8 +5,9 @@
 
 get_header(); ?>
 <main id="main">
-  <section class="contact-bg" data-aos="fade-up">
+  <section class="contact-bg main-bg" data-aos="fade-up">
   </section>
+  
   <section data-aos="fade-up">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">

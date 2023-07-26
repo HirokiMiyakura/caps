@@ -6,12 +6,12 @@
 				<p class="mb-0">登録番号 23081504号</p>
 				<p class="mb-0">160-0022 東京都新宿区新宿1-9-2ナリコマHD新宿ビル6F</p>
 				<p class="mb-0">TEL: <a href="tel:05037060827">050-3706-0827</a></p>
-				<p class="mb-0">携帯: <a href="tel:09049541889">090-4954-1889</a></p>
+				<!-- <p class="mb-0">携帯: <a href="tel:09049541889">090-4954-1889</a></p> -->
 				<p class="social">
-						<a href="#"><span class="bi bi-twitter"></span></a>
+						<!-- <a href="#"><span class="bi bi-twitter"></span></a>
 						<a href="#"><span class="bi bi-facebook"></span></a>
 						<a href="#"><span class="bi bi-instagram"></span></a>
-						<a href="#"><span class="bi bi-linkedin"></span></a>
+						<a href="#"><span class="bi bi-linkedin"></span></a> -->
 				</p>
 			</div>
 			<div class="col-md-6">
@@ -53,6 +53,7 @@ class="back-to-top d-flex align-items-center justify-content-center"
 <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/php-email-form/validate.js"></script>
 <!-- Template Main JS File -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

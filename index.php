@@ -1,16 +1,14 @@
 <?php get_header(); ?>
-<section class="hero" data-aos="fade-up">
-</section>
 <main id="main">
+	<section class="hero main-bg" data-aos="fade-up">
+	</section>
+
 	<section data-aos="fade-up">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 mx-auto">
 					<h2 class="mb-5 h1 text-center">ご挨拶</h2>
-					<p>ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。
-					ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。
-					ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。ここに挨拶が入ります。
-					</p>
+					<p>鈴木義典行政書士事務所は、お客様と大切なご家族のために民事法務、特に遺言、家族信託をメインに2023年6月に開業しました。</p>
 				</div>
 			</div>
 		</div>
@@ -28,21 +26,21 @@
 					<div class="service_box">
 						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.jpg" alt=""></p>
 						<h3 class="pb-2">遺言</h3>
-						<p>遺言の説明文が入ります。遺言の説明文が入ります。遺言の説明文が入ります。遺言の説明文が入ります。</p>
+						<p>大切なご資産を誰にどのように継承させるか。<br>重要な課題解決を一緒に取り組ませてください。</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-12 px-4">
 					<div class="service_box">
-						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/2.png" alt=""></p>
+						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/2.jpg" alt=""></p>
 						<h3 class="pb-2">家族信託</h3>
-						<p>家族信託の説明文が入ります。家族信託の説明文が入ります。家族信託の説明文が入ります。家族信託の説明文が入ります。</p>
+						<p>あなたの資産に「想い」を込めて大切な家族に繋ぐ。<br>家族信託は家族信託専門士（一般社団法人家族信託普及協会）にお任せください。</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-12 px-4">
 					<div class="service_box">
-						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/3.png" alt=""></p>
+						<p class="py-4 text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/3.jpg" alt=""></p>
 						<h3 class="pb-2">助成金</h3>
-						<p>助成金の説明文が入ります。助成金の説明文が入ります。助成金の説明文が入ります。助成金の説明文が入ります。</p>
+						<p>次々と新しい助成金、補助金が出てきます。<br>お客様にマッチした助成金・補助金のご提案とコンサルティングを行っております。</p>
 					</div>
 				</div>
 			</div>
@@ -66,7 +64,7 @@
 						foreach ( $posts as $post ):
 						setup_postdata( $post );
 					?>
-					<li class="h5 mb-4 pb-4 list-group-item">
+					<li class="h6 mb-4 pb-4 list-group-item">
 						<a href="<?php the_permalink(); ?>"><span><?php the_time('Y年m月d日'); ?></span>　<?php the_title(); ?></a>
 					</li>
 					<?php

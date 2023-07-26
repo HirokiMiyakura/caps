@@ -5,20 +5,29 @@
 
 get_header(); ?>
 <main id="main">
-  <section class="service-bg" data-aos="fade-up">
+  <section class="service-bg main-bg" data-aos="fade-up">
   </section>
+
   <section data-aos="fade-up">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 mx-auto">
 					<h2 class="mb-5 h1 text-center">取扱業務のご紹介</h2>
-					<p>取扱業務の要約文がはいります。取扱業務の要約文がはいります。取扱業務の要約文がはいります。取扱業務の要約文がはいります。
-          取扱業務の要約文がはいります。取扱業務の要約文がはいります。取扱業務の要約文がはいります。取扱業務の要約文がはいります。
-					</p>
+					<p>行政書士の業務は</p>
+          <ul>
+            <li>・「官公署に提出する書類」の作成とその代理、相談業務</li>
+            <li>・「権利義務に関する書類」の作成とその代理、相談業務</li>
+            <li>・「事実証明に関する書類」の作成とその代理、相談業務</li>
+            <li>・その他特定業務</li>
+          </ul>
+          <p>があります。</p>
+          <p>行政書士の業務の範囲は非常に広く、士業の中でも非常に広い分野を網羅する法務の専門家です。<br>
+  我が事務所では遺言、家族信託、補助金・助成金コンサル業務をメインとしてお客様にご提案させていただきます。</p>
 				</div>
 			</div>
 		</div>
 	</section>
+  
   <section data-aos="fade-up">
     <div class="container">
       <div class="row">
