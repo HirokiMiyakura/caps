@@ -33,10 +33,10 @@ get_header(); ?>
       <div class="row">
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a href="#service1" class="nav-link active" data-bs-toggle="tab">遺言</a>
+            <a href="#service1" class="nav-link active" data-bs-toggle="tab">家族信託</a>
           </li>
           <li class="nav-item">
-            <a href="#service2" class="nav-link" data-bs-toggle="tab">家族信託</a>
+            <a href="#service2" class="nav-link" data-bs-toggle="tab">遺言</a>
           </li>
           <li class="nav-item">
             <a href="#service3" class="nav-link" data-bs-toggle="tab">助成金</a>
@@ -44,10 +44,10 @@ get_header(); ?>
         </ul>
         <div class="tab-content">
           <div id="service1" class="tab-pane active">
-            <?php get_template_part('template/1'); ?>
+            <?php get_template_part('template/2'); ?>
           </div>
           <div id="service2" class="tab-pane">
-            <?php get_template_part('template/2'); ?>
+            <?php get_template_part('template/1'); ?>
           </div>
           <div id="service3" class="tab-pane">
             <?php get_template_part('template/3'); ?>
