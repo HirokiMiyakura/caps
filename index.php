@@ -8,7 +8,10 @@
 			<div class="row">
 				<div class="col-md-8 mx-auto">
 					<h2 class="mb-5 h1 text-center">ご挨拶</h2>
-					<p>鈴木義典行政書士事務所は、お客様と大切なご家族のために民事法務、特に遺言、家族信託をメインに2023年6月に開業しました。</p>
+					<p class="text-center">お客様の権利を守り、未来を創る<br>
+”Protecting your rights, creating your future.”<br>
+を指針として行政書士事務所を開業いたしました。<br><br>
+お客様の「お悩みの解消」と「未来の安心」の為に全力で取り組んでまいります。</p>
 				</div>
 			</div>
 		</div>
