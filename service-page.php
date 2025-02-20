@@ -12,7 +12,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 mx-auto">
-					<h2 class="mb-5 h1 text-center">取扱業務のご紹介</h2>
+					<h1 class="mb-5 h1 text-center">取扱業務のご紹介</h1>
 					<p>行政書士の業務は</p>
           <ul>
             <li>・「官公署に提出する書類」の作成とその代理、相談業務</li>

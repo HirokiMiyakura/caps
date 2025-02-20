@@ -3,8 +3,8 @@
 <head>
 <meta charset="<?php bloginfo('charset'); ?>" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-<meta content="" name="description" />
-<meta content="" name="keywords" />
+<meta content="行政書士鈴木義典／鈴木義典行政書士事務所。民事法務の提案。家族信託契約書の作成。遺言書の作成。相続対策。争族対策。高い満足度。終活をテーマにした記事執筆。予防法務の専門家。コンサルティング。" name="description" />
+<meta content="行政書士,家族信託,遺言,補助金,相続対策,争族対策,記事執筆,金融に強い行政書士,法務セミナー,コンサルティング" name="keywords" />
 <title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 <!-- Favicons -->
 <link href="assets/img/favicon.png" rel="icon" />

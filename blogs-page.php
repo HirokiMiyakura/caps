@@ -12,7 +12,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-md-8">
-          <h2 class="section-heading">一覧</h2>
+          <h1 class="section-heading">一覧</h1>
         </div>
       </div>
       <div class="col-md-8 mx-auto">

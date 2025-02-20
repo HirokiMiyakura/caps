@@ -12,7 +12,7 @@ get_header(); ?>
 	<div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2 class="mb-5 h1 text-center">報酬のご案内</h2>
+                <h1 class="mb-5 h1 text-center">報酬のご案内</h1>
                 <p>相談料等は正式にご依頼頂いてから発生しますので、安心してご相談下さい。<br>下記報酬表はあくまで目安となります。<br>ご依頼時に正式な見積もりをご請求させていただきます。</p>
             </div>
         </div>

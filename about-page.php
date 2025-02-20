@@ -12,7 +12,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-md-8">
-          <h2 class="section-heading mb-4">アクセス</h2>
+          <h1 class="section-heading mb-4">アクセス</h1>
           <p class="address">
           〒160-0022<br>
           東京都新宿区新宿1-9-2ナリコマHD新宿ビル6F<br>
